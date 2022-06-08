@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio/Fabian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header content">
+        <div class="header-video">
+            <video  src="Thunder - 101347.mp4"  autoplay loop></video>
+        </div>
+    </header>    
+    <audio autoplay="autoplay" loop>
+        <source src="irreducible-111374.mp3"> 
+    </audio>      
+    <section>
+        <div class="logo">PORTAFOLIO</div>
+        <img src="building-7053263 (1).jpg" class="bg">
+        <div class="content">           
+            <h2>INGENIERIA<br>ESPECIALIZADA</h2>
+            <p>Somos una empresa especializada en servicios de
+                diseño y desarrollo de ingeniería eléctrica, construcción,
+                actividades conexas de consultoría técnica y otros
+                servicios, que garantiza altos estándares de calidad,
+                con talento humano idóneo, tecnología de punta y
+                responsabilidad social.<br> Velando por sus intereses y
+                necesidades basados en los principios fundamentales
+                de calidad, cumplimiento y honestidad; con el fin de
+                permanecer en el mercado y proporcionar bienestar
+                a los socios y empleados de la compañía.</p>
+            <a href="#">Mas información</a>
+        </div>
+        <p class="copyrightText">©José Fabian Martinez Saravia</p>    
+    </section>
+    <div class="menuToggle" onclick="toggleMenu();"></div>
+    <div class="navegacion">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Mas información</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Equipo</a></li>
+            <li><a href="#">Videos</a></li>
+        </ul>
+        <div class="social">
+            <ul>
+                <li><a href="#"><img src="facebook (1).png"></a></li>
+                <li><a href="#"><img src="instagram (1).png"></a></li>                
+            </ul>
+            <a href="fabian:@email.com" class="email"><img src="email.png" alt=""></a>
+        </div>
+    </div>
+    <script type="text/javascript">
+    function toggleMenu(){
+        var menuToggle = document.querySelector('.menuToggle');        
+        var navegacion = document.querySelector('.navegacion');
+        menuToggle.classList.toggle('active');
+        navegacion.classList.toggle('active');
+    }   
+    </script>
+</body>
+</html>
